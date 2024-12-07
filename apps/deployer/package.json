@@ -1,7 +1,8 @@
 {
-  "name": "omakase",
+  "name": "deployer",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +10,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "engines": {
-    "node": ">=22.11.1"
+  "dependencies": {
+    "execa": "^9.5.1"
   },
-  "packageManager": "pnpm@9.13.2",
-  "type": "module"
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.7.0",
+    "typescript": "^5"
+  }
 }
