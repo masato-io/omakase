@@ -1,0 +1,4 @@
+{
+  "schema": "https://mo-dev-u1l8xcjfs9.erp.dev/query",
+  "documents": "apps/**/*.{tsx,ts}"
+}
